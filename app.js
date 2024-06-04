@@ -1,6 +1,6 @@
 function validateForm () {
   const name = document.getElementById('name').value
-  /* const username = document.getElementById('username').value;
+  const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     const age = document.getElementById('age').value;
     const email = document.getElementById('email').value;
@@ -9,7 +9,7 @@ function validateForm () {
     const genderFemale = document.getElementById('gender_female').checked;
     const dob = document.getElementById('dob').value;
     const course = document.getElementById('course').value;
-    const address = document.getElementById('address').value; */
+    const address = document.getElementById('address').value; 
 
   console.log(name)
   let isValid = true
@@ -20,7 +20,7 @@ function validateForm () {
     document.getElementById('message_name').innerHTML = ''
     isValid = true
   }
-  /*  
+   
    if (!username) {
         document.getElementById('message_username').innerHTML = "Username is required.";
         isValid = false;
@@ -94,7 +94,7 @@ function validateForm () {
         isValid = true;
     }
 
-  */
+
 
   const successMessageElement = document.getElementById('success_message')
 
